@@ -33,3 +33,15 @@ variable "nic-name" {
   description = "The name of the network interface"
   default     = "nic-3"
 }
+
+variable "pip-name" {
+  type        = string
+  description = "name of the public ip"
+  default     = "pip-web"
+}
+
+variable "web-vm-name" {
+  type        = string
+  description = "The name of the VM for the frontend"
+  default     = "vm-web"
+}
