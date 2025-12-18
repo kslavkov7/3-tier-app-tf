@@ -1,0 +1,24 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfplan
+*.tfvars
+crash.log
+
+# Local IDE / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Kubernetes / Kind
+.kube/
+*.kubeconfig
+*.kubecontext
+
+# Logs
+*.log
+
+# Optional: node_modules if using any JS tooling
+node_modules/
